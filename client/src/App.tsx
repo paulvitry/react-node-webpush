@@ -6,8 +6,9 @@ import Axios from "axios";
 
 function App() {
   const [data, setData] = useState("");
+
   const endpoint =
-    process.env.NODE_ENV === "production"
+    process.env.NODE_ENV === 'production'
       ? process.env.REACT_APP_ENDPOINT_PROD
       : process.env.REACT_APP_ENDPOINT_DEV;
 

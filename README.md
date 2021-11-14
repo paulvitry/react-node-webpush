@@ -1,5 +1,11 @@
 # react-node-webpush
 
+This is a simple PWA with webpush notifications using reactJS and nodeJS.
+
+# Try it!
+
+https://agitated-shirley-a0cc07.netlify.app
+
 # Create your app
 
     npx create-react-app client --template cra-template-pwa-typescript
